@@ -21,22 +21,23 @@ main {
 
 .main {
     border: 1px solid red;
+    position: relative;
+    top: 12%;
     width: 600px;
-    //position: absolute;
-    //top: 33%;
-    //left: 23%;
     margin: auto;
     padding: 0px;
     text-align: center;
 }
 
 .main h1, .main p {
-    //-webkit-text-stroke: 0.4px white;
-    //text-shadow: 0px 0px 2px #ccc;
+    color: orange;
+    margin: 40px;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 0px 2px black;
 }
 
 .main p {
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main ul li{
@@ -45,11 +46,4 @@ main {
 
 .main ul li a {
     border: 1px solid orange;
-}
-
-@media (max-width: 530px) {
-    .main {
-        width: 30vw;
-    }
-    
 }
