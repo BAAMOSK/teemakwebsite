@@ -1,0 +1,55 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    background: #aaa;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    border: 1px solid black;
+    margin: 60px;
+    box-shadow: 0px 0px 35px #222;
+    font-size: 2em;
+}
+
+main {
+    height: 97vh;
+    width: 100%;
+    background: url('images/main.jpeg') no-repeat center;
+    background-size: cover;
+}
+
+.main {
+    border: 1px solid red;
+    width: 600px;
+    //position: absolute;
+    //top: 33%;
+    //left: 23%;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+}
+
+.main h1, .main p {
+    //-webkit-text-stroke: 0.4px white;
+    //text-shadow: 0px 0px 2px #ccc;
+}
+
+.main p {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.main ul li{
+    display: inline-block;
+}
+
+.main ul li a {
+    border: 1px solid orange;
+}
+
+@media (max-width: 530px) {
+    .main {
+        width: 30vw;
+    }
+    
+}
