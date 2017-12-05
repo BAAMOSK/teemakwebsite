@@ -14,26 +14,17 @@ body {
 
 main {
     height: 97vh;
-    background: url('images/main.jpeg') no-repeat center;
+    background: url('images/main.jpeg') no-repeat center center;
     background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 
 .main {
-    position: absolute;
-    top: 35%;
-    left: 20%;
-    width: 600px;
-    margin: auto;
-    padding: 0px;
-    text-align: center;
-}
-
-.main h1, .main p {
-    display: inline-block;
+    width: 100%;
+    margin: 15%;
     color: orange;
-}
-
-.main-text {
 }
 
 .main p {
