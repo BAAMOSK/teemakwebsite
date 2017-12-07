@@ -13,11 +13,13 @@ body {
 }
 
 main {
-    height: 97vh;
-    background: url('images/main.jpeg') no-repeat center center;
+    height: 100vh;
+    background-color: darkblue;
+    //background: url('images/main.jpeg') no-repeat center center;
     background-size: cover;
     text-align: center;
-    display: flex;
+    display: block;
+    //display: flex;
     align-items: center;
 }
 
