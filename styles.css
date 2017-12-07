@@ -31,7 +31,6 @@ header {
 
 .main {
     //width: 100%;
-    //margin: 0 auto;
     color: orange;
     -webkit-text-stroke: 1px black;
 }
@@ -41,7 +40,9 @@ header {
     padding: 0;
 }
 
-.main p {
+.main-text p {
+    text-align: center;
+    //padding: 75%;
     font-family: 'Montserrat', sans-serif;
 }
 
